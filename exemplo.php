@@ -7,7 +7,7 @@
     $busca = new Search;
 
     //Número do cep que vai ser buscado pela biblioteca
-    $cepBuscado = "01001000";
+    $cepBuscado = "57690970";
 
     $resultado = $busca->getEnderecoFromCep($cepBuscado);
 

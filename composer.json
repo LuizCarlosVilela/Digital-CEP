@@ -1,5 +1,5 @@
 {
-    "name": "luiz/digitalCep",
+    "name": "luiz/digital-cep",
     "description": "Busca de ceps online",
     "type": "library",
     "license": "MIT",
@@ -20,5 +20,8 @@
         "psr-4": {
             "luiz\\digitalCep\\": "src/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8"
     }
 }
