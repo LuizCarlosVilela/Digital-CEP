@@ -1,0 +1,24 @@
+{
+    "name": "luiz/digitalCep",
+    "description": "Busca de ceps online",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "LuizCarlosVilela",
+            "email": "luizcarlosvilela@outlook.com.br"
+        }
+    ],
+    "require": {
+        "php":">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+
+        },
+        "psr-4": {
+            "luiz\\digitalCep\\": "src/"
+        }
+    }
+}
